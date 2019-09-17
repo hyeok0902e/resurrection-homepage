@@ -112,6 +112,8 @@
 
 .company-intro .our-service .cib-img-hover .cib-img-comment  p {
     color: #fff;
+    padding-right: 23px;
+    line-height: 23px;
 }
 
 .company-intro .our-service .cib-img-hover:hover .cib-img-comment {
@@ -119,8 +121,8 @@
     opacity:1;
 }
 
-@media (max-width: 768px) {
-    
+@media all and (max-width: 768px) {
+
 } 
 
 /* 최소사이즈: 테블릿 */

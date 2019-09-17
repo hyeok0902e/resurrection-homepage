@@ -12,8 +12,7 @@ module.exports = {
   },
   production: {
     username: 'root',
-    password: "newlife4829",
-    database: 'book1',
+    database: 'resurrection-homepage',
     port: 3306,
     host: '127.0.0.1',
     dialect: 'mysql',

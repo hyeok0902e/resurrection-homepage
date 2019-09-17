@@ -14,7 +14,6 @@
     .header .logo {
         float: left;
         font-size: 20px;
-     
         margin-top: 32px;
     }
     .header .logo a {
@@ -38,14 +37,13 @@
     .menu-toggle-btn {
         display: block;
         float: right;
-
         width: 20px;
         box-sizing: border-box;
 
 
         cursor: pointer;
         transition:all 0.3s;
-        margin-top: 3 4px;
+        margin-top: 34px;
     }
     .menu-toggle-btn:hover{
         opacity: 0.8;

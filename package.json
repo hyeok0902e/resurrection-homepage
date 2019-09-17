@@ -1,0 +1,27 @@
+{
+  "name": "book1",
+  "version": "1.0.0",
+  "description": "front-end web design start(do it!)",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hyeoke",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.1.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.16.2",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

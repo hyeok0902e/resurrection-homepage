@@ -1,0 +1,46 @@
+
+.cfixed:after, .container:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.container {
+    width: 90%;
+    max-width: 1132px;
+    margin: 0 auto; 
+}
+.sub-tit {
+    font-size: 38px;
+    font-weight: 200;
+}
+.sub-desc {
+    font-size: 18px;
+    font-weight: 400!important;
+}
+
+.pdt-name {
+    font-weight: 400;    
+}
+.sub-tit2 {
+    font-size: 28px;
+    color: #4A515A;
+}
+.sub-desc2 {
+    font-size: 15px;
+    color: black;
+}
+.header-up {
+    top: -82px;   
+}
+
+.inner-wrap {
+    margin-top: 82px;
+}
+.map {
+    margin-bottom: -3px;
+}
+
+
+
+
+

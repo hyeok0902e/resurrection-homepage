@@ -15,7 +15,7 @@ module.exports = {
     database: 'resurrection-homepage',
     password: process.env.SEQUELIZE_PRO_PW,
     port: 3306,
-    host: '127.0.0.1',
+    host: 'resurrection-homepage.cdnoehbstncm.ap-northeast-2.rds.amazonaws.com',
     dialect: 'mysql',
     operatorsAliases: 'false',
     logging: false,

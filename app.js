@@ -35,12 +35,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser(process.env.COOKIE_SECRET));
 app.use(session({
-  resave: false,
-  saveUninitialized: false,
-  secret: process.env.COOKIE_SECRET,
+  resave: false, // false => 요청이 왔을 때 수정 사항이 생기지 않으면 다시 저장 안함
+  saveUninitialized: false, // false => 세션에 저장 사항이 생기지 않으면 다시 저장 안함
+  secret: process.env.COOKIE_SECRET, // cookieParser 설정과 같게
   cookie: {
-    httpOnly: true,
-    secure: false,
+    httpOnly: true, // true => 쿠키 값이 클라이언트(브라우저)에서 볼 수 없음 => 서버에서만 확인 가능
+    secure: false, // false => https가 아닌 환경에서도 사용 가능
   },
 }));
 app.use(flash());

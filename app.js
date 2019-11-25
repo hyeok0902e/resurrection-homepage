@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const path = require('path');
 const session = require('express-session');
 const flash = require('connect-flash');
-const { sequelize } = require('./models');
+// const { sequelize } = require('./models');
 const expressLayout = require('express-ejs-layouts');
 require('dotenv').config();
 

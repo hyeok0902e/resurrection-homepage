@@ -12,7 +12,7 @@ require('dotenv').config();
 const indexRouter = require('./routes/index');
 
 const app = express();
-sequelize.sync();
+// sequelize.sync();
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
